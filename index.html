@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="shopping_list_box">
+            <div class="products_cart">
+                <div class="cart_heading">
+                    <h3>Shopping Cart</h3>
+                <h3>3 Items</h3>
+                </div>
+                <hr>
+                <div class="cart_label">
+                    <span>PRODUCT DETAILS</span>
+                    <span>QUANTITY</span>
+                    <span>PRICE</span>
+                    <span>TOTAL</span>
+                </div>
+                <div class="item_details">
+                    <div class="product_thumbnail">
+                        <img src="./img/images (47).jpeg" alt="" class="item_img">
+                        <div class="product_label">
+                            <h3 class="name">XBOX X-Series</h3>
+                            <span class="category">Game</span>
+                            <button class="remove_item">Remove</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="decrease_item_quantity_btn">-</button>
+                        <span class="quantity">2</span>
+                        <button class="increase_item_quantity_btn">+</button>
+                    </div>
+                    <h3 class="item_price">$44.00</h3>
+                    <h3 class="total_item_price">$88.00</h3>
+                </div>
+                <div class="item_details">
+                    <div class="product_thumbnail">
+                        <img src="./img/images (48).jpeg" alt="" class="item_img">
+                        <div class="product_label">
+                            <h3 class="name">XBOX ONE</h3>
+                            <span class="category">Game</span>
+                            <button class="remove_item">Remove</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="decrease_item_quantity_btn">-</button>
+                        <span class="quantity">2</span>
+                        <button class="increase_item_quantity_btn">+</button>
+                    </div>
+                    <h3 class="item_price">$44.00</h3>
+                    <h3 class="total_item_price">$88.00</h3>
+                </div>
+                <div class="item_details">
+                    <div class="product_thumbnail">
+                        <img src="./img/images (51).jpeg" alt="" class="item_img">
+                        <div class="product_label">
+                            <h3 class="name">BOYA Mic BY-M1</h3>
+                            <span class="category">Sound Instrument</span>
+                            <button class="remove_item">Remove</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="decrease_item_quantity_btn">-</button>
+                        <span class="quantity">2</span>
+                        <button class="increase_item_quantity_btn">+</button>
+                    </div>
+                    <h3 class="item_price">$44.00</h3>
+                    <h3 class="total_item_price">$88.00</h3>
+                </div>
+                <div>
+                    <a href="" class="back">&LeftArrowBar; Continue Shopping</a>
+                </div>
+            </div>
+            
+            <div class="order_summary">
+                <h3>Order Summary</h3>
+                <div class="cost">
+                    <span>Item <span class="total_item_quantity"></span>3</span>
+                    <span class="total-price">$678.45</span>
+                </div>
+                <div>
+                    <h3>SHIPPING</h3>
+                    <select name="shipping" id="shipping_methode">
+                        <option value="Standard">Standard Delivery - $15.00</option>
+                        <option value="Premium">Premium Delivery - $10.00</option>
+                        <option value="Basic">Basic Delivery - $5.00</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>PROMO CODE</h3>
+                    <input type="text" placeholder="Enter Your Promo Code" id="Promo_code">
+                </div>
+                <div>
+                    <button class="apply">APPLY</button>
+                </div>
+                <hr>
+                <div class="totalCost">
+                    <h3>TOTAL COST</h3>
+                    <h3 class="final_checkout_cost">$693.45</h3>
+                </div>
+                <div>
+                    <button class="checkout_btn">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
